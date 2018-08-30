@@ -6,6 +6,8 @@
     "start": "node app.js"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.3"
+  },
   "devDependencies": {}
 }
