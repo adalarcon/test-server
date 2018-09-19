@@ -3,6 +3,10 @@ const router = express.Router();
 
 const CategoriesCTRL = require('../controller/categories.controller');
 
+router.get("/", (req, res) =>{
+  res.send("Welcome to data api");
+});
+
 // campaigns
 router.get('/api/v1/categories',  CategoriesCTRL.find);
 router.get('/api/v1/categories/:id', CategoriesCTRL.findById);
