@@ -6,5 +6,5 @@ var server = app.listen(app.get('port'), function() {
 });
 
 setInterval(function() {
-    http.get("https://dataservicemx.herokuapp.com/api/v1/");
+    http.get("http://dataservicemx.herokuapp.com/api/v1/");
 }, 300000);
