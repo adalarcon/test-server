@@ -19,7 +19,7 @@ router.delete('/api/v1/categories/:id',  CategoriesCTRL.deleteOne);
 router.get('/api/v1/customers',  CustomersCTRL.find);
 router.get('/api/v1/customers/:id', CustomersCTRL.findById);
 router.post('/api/v1/customers', CustomersCTRL.insertOne);
-router.put('/api/v1/customers',  CustomersCTRL.updateOne);
+router.put( '/api/v1/customers', CustomersCTRL.updateOne);
 router.delete('/api/v1/customers/:id',  CustomersCTRL.deleteOne);
 
 module.exports = router;
